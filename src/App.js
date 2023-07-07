@@ -182,8 +182,8 @@ function App() {
                   <Typography variant="body2" color="textSecondary" style={styles.cardCategory}>
                     {note.category}
                   </Typography>
-                  {/* <Typography variant="body2" style={styles.noteContent}>
-                    {JSON.parse(note.notes).content.map((contentItem, index) => (
+                  <Typography variant="body2" style={styles.noteContent}>
+                    {/* {JSON.parse(note.notes).content.map((contentItem, index) => (
                       <Typography variant="body2" key={index} style={styles.noteText}>
                         {contentItem.content.map((textItem, textIndex) => (
                           <span
@@ -198,26 +198,26 @@ function App() {
                           </span>
                         ))}
                       </Typography>
-                    ))}
-                  </Typography> */}
-                  <Typography variant="body2" style={styles.noteContent}>
+                    ))}  */}
+                  </Typography>
+                  {/* <Typography variant="body2" style={styles.noteContent}>
                     {JSON.parse(note.notes).content.map((contentItem, index) => (
                       <Typography variant="body2" key={index} style={styles.noteText}>
                         {contentItem.content.map((textItem, textIndex) => (
                           <span
                             key={textIndex}
-                            style={{
-                              color: (textItem.marks && textItem.marks.find(mark => mark.type === 'textColor')?.attrs.color) || 'inherit',
-                              backgroundColor:
-                                (textItem.marks && textItem.marks.find(mark => mark.type === 'backgroundColor')?.attrs.color) || 'inherit',
-                            }}
+                            // style={{
+                            //   color: (textItem.marks && textItem.marks.find(mark => mark.type === 'textColor')?.attrs.color) || 'inherit',
+                            //   backgroundColor:
+                            //     (textItem.marks && textItem.marks.find(mark => mark.type === 'backgroundColor')?.attrs.color) || 'inherit',
+                            // }}
                           >
                             {textItem.text}
                           </span>
                         ))}
                       </Typography>
                     ))}
-                  </Typography>
+                  </Typography> */}
                 </CardContent>
               </Card>
             </Grid>
