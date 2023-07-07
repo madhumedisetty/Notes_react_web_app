@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 ![image](https://github.com/venkatsaipalla/UserNoteManagment-Using-MERN-Stack/assets/72677771/c74fcdfe-01e4-4411-902a-0689252663ac)
 
+
+[screen-capture.webm](https://github.com/madhumedisetty/Notes_react_web_app/assets/108189103/883ed45b-6ce5-412c-8810-f33b50492863)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
